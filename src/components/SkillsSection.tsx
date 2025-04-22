@@ -91,7 +91,7 @@ const SkillsSection = () => {
         },
         {
           name: "Machine Learning",
-          icon: "https://img.icons8.com/color/48/000000/machine-learning.png",
+          icon: "https://static.vecteezy.com/system/resources/previews/004/655/703/non_2x/trendy-design-icon-of-machine-learning-vector.jpg",
         },
       ],
     },
