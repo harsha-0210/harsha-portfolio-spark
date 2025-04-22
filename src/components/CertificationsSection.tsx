@@ -7,19 +7,19 @@ const CertificationsSection = () => {
       title: "Ethical Hacking Essentials",
       issuer: "EC Council",
       link: "https://coursera.org/verify/QAYCLA32VDJO",
-      image: "https://images.unsplash.com/photo-1481487196290-c152efe083f5?q=80&w=500"
+      image: "Screenshot (284).png"
     },
     {
       title: "Responsible & Safe AI Systems",
       issuer: "NPTEL",
       link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS132S85160043904042720",
-      image: "https://images.unsplash.com/photo-1677442135966-522923d0ec0e?q=80&w=500" 
+      image: "Screenshot (86).png" 
     },
     {
       title: "Digital Forensics Essentials",
       issuer: "EC-Council",
       link: "https://coursera.org/verify/EH17IQTCJKB8",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=500"
+      image: "Screenshot (285).png"
     }
   ];
 
