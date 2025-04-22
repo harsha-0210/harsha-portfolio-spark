@@ -11,12 +11,12 @@ const AchievementsSection = () => {
     {
       title: "Cyber Security Paper with 29K+ reads",
       icon: <FileText className="w-12 h-12 text-accent" />,
-      image: "Screenshot (283).png",
+      image: "https://i0.wp.com/carijournals.org/wp-content/uploads/2023/04/Steps-in-Writing-a-Good-Research-Paper.png?fit=1000%2C600&ssl=1",
     },
     {
       title: "NPTEL Elite Badge",
       icon: <Award className="w-12 h-12 text-accent" />,
-      image: "images.png",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4JgJF-gjK75chhTH4rGhDrNj0wR6qkaFcSA&s",
     },
   ];
 
