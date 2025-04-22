@@ -1,10 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 250 20% 99%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -13,41 +14,34 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 255 92% 76%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 220 14% 96%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 262 83% 58%;
+    --accent-foreground: 210 40% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 262 83% 58%;
 
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -96,6 +90,88 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-poppins scroll-smooth;
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-16 px-4 md:px-8 max-w-7xl mx-auto;
+  }
+  
+  .section h2 {
+    @apply text-3xl md:text-4xl font-playfair font-bold mb-12 text-center relative;
+  }
+  
+  .section h2::after {
+    content: '';
+    @apply absolute w-20 h-1 bg-accent left-1/2 -translate-x-1/2 bottom-0 mt-2;
+    bottom: -10px;
+  }
+
+  .skill-card {
+    @apply bg-white rounded-xl shadow-lg p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border-t-4 border-accent;
+  }
+
+  .timeline-item {
+    @apply relative mb-8 pb-4;
+  }
+
+  .timeline-dot {
+    @apply absolute w-4 h-4 rounded-full bg-accent left-0 top-2;
+  }
+
+  .timeline-line {
+    @apply absolute w-0.5 bg-gray-200 h-full left-2 top-6 -translate-x-1/2;
+  }
+
+  .timeline-content {
+    @apply ml-8;
+  }
+
+  .project-card {
+    @apply bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl;
+  }
+
+  .skill-icon {
+    @apply w-12 h-12 mx-auto mb-3 text-accent;
+  }
+
+  .contact-icon {
+    @apply mr-3 text-accent;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-primary;
+  }
+
+  .header-gradient {
+    background: linear-gradient(90deg, rgba(139,92,246,0.1) 0%, rgba(187,153,255,0.1) 100%);
+    @apply animate-gradient-background;
+  }
+
+  .reveal {
+    @apply opacity-0 transition-all duration-1000 translate-y-10;
+  }
+
+  .reveal.active {
+    @apply opacity-100 translate-y-0;
+  }
+
+  .typing-container {
+    @apply flex items-center justify-center overflow-hidden whitespace-nowrap;
+  }
+
+  .typing-text {
+    @apply overflow-hidden whitespace-nowrap border-r-4 border-accent pr-1 animate-typing;
+    width: 0;
+  }
+
+  .button-primary {
+    @apply bg-accent hover:bg-accent/90 text-white font-medium py-3 px-6 rounded-lg transition-all flex items-center justify-center gap-2;
+  }
+
+  .button-secondary {
+    @apply border-2 border-accent text-accent hover:bg-accent/10 font-medium py-3 px-6 rounded-lg transition-all flex items-center justify-center gap-2;
   }
 }

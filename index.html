@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>harsha-portfolio-spark</title>
-    <meta name="description" content="Lovable Generated Project" />
+    <title>Harsha Srivastava | Cybersecurity Enthusiast</title>
+    <meta name="description" content="Portfolio of Harsha Srivastava - Cybersecurity Enthusiast, Creative Coder, and Storyteller" />
     <meta name="author" content="Lovable" />
 
     <meta property="og:title" content="harsha-portfolio-spark" />
@@ -22,5 +22,22 @@
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        function revealOnScroll() {
+          const reveals = document.querySelectorAll(".reveal");
+          for (let i = 0; i < reveals.length; i++) {
+            const windowHeight = window.innerHeight;
+            const revealTop = reveals[i].getBoundingClientRect().top;
+            const revealPoint = 150;
+            if (revealTop < windowHeight - revealPoint) {
+              reveals[i].classList.add("active");
+            }
+          }
+        }
+        window.addEventListener("scroll", revealOnScroll);
+        revealOnScroll();
+      });
+    </script>
   </body>
 </html>

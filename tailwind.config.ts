@@ -84,11 +84,48 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				"typing": {
+					"0%": { width: "0" },
+					"100%": { width: "100%" }
+				},
+				"blink": {
+					"0%, 100%": { borderColor: "transparent" },
+					"50%": { borderColor: "#8B5CF6" }
+				},
+				"fade-in": {
+					"0%": { opacity: "0", transform: "translateY(20px)" },
+					"100%": { opacity: "1", transform: "translateY(0)" }
+				},
+				"gradient-background": {
+					"0%, 100%": {
+						backgroundPosition: "0% 50%",
+					},
+					"50%": {
+						backgroundPosition: "100% 50%",
+					},
+				},
+				"slide-in": {
+					"0%": { transform: "translateX(-100%)" },
+					"100%": { transform: "translateX(0)" }
+				},
+				"scale-in": {
+					"0%": { transform: "scale(0.9)", opacity: "0" },
+					"100%": { transform: "scale(1)", opacity: "1" }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				"typing": "typing 2s steps(20, end), blink .75s step-end infinite",
+				"fade-in": "fade-in 1s ease-out",
+				"gradient-background": "gradient-background 15s ease infinite",
+				"slide-in": "slide-in 1s ease-out",
+				"scale-in": "scale-in 0.7s ease-out"
+			},
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
+				'playfair': ['Playfair Display', 'serif'],
 			}
 		}
 	},
