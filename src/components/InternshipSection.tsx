@@ -53,7 +53,7 @@ const InternshipSection = () => {
 
               <div className="mt-8">
                 <img 
-                  src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5" 
+                  src="Screenshot (288).png" 
                   alt="Internship Experience" 
                   className="rounded-lg shadow-md w-full h-48 object-cover"
                 />
