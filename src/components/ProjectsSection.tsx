@@ -7,7 +7,7 @@ const ProjectsSection = () => {
       title: "Safer - User Authentication Interface",
       description: "Built a Cryptographic interface working on RBAC and authenticates users using Multi-factor authentication.",
       techStack: "Kali Linux, Metasploit, Burp Suite, HTML, CSS",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+      image: "Screenshot (286).png",
       link: "https://github.com/harsha-0210/User-Auhthentication-Interface",
       github: "https://github.com/harsha-0210/User-Auhthentication-Interface"
     },
@@ -15,7 +15,7 @@ const ProjectsSection = () => {
       title: "Sleath - AI powered smart planner",
       description: "Built an AI based smart planner which sets reminders for your daily tasks and automate your daily routine.",
       techStack: "HTML, CSS, JavaScript",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      image: "Screenshot (287).png",
       link: "https://github.com/harsha-0210/Sleath-Smart-Planner",
       github: "https://github.com/harsha-0210/Sleath-Smart-Planner"
     },
@@ -23,7 +23,7 @@ const ProjectsSection = () => {
       title: "Travel Sphere",
       description: "A personal travel planning website made to help users explore and create trip itineraries with ease and aesthetics.",
       techStack: "Weebly",
-      image: "https://images.unsplash.com/photo-1500673922987-e212871fec22",
+      image: "Screenshot (194).png",
       link: "https://travelspheres.weebly.com",
       github: null
     }
