@@ -20,7 +20,7 @@ const BlogSection = () => {
                 className="block h-full relative group"
               >
                 <img 
-                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500" 
+                  src="Screenshot (280).png" 
                   alt="My Blog" 
                   className="w-full h-full object-cover"
                 />
