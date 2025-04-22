@@ -6,17 +6,17 @@ const AchievementsSection = () => {
     {
       title: "HackerRank Problem Solving Certification",
       icon: <Trophy className="w-12 h-12 text-accent" />,
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500",
+      image: "Screenshot (281).png",
     },
     {
       title: "Cyber Security Paper with 29K+ reads",
       icon: <FileText className="w-12 h-12 text-accent" />,
-      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500",
+      image: "Screenshot (283).png",
     },
     {
       title: "NPTEL Elite Badge",
       icon: <Award className="w-12 h-12 text-accent" />,
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500",
+      image: "images.png",
     },
   ];
 
