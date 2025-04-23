@@ -20,7 +20,7 @@ const BlogSection = () => {
                 className="block h-full relative group"
               >
                 <img 
-                  src="https://drive.google.com/file/d/1jvZiTw8pg7jJ0_-o3zWxSDyfBB4Wbani/view?usp=sharing"
+                  src="/Screenshot (280).png"
                   alt="My Blog" 
                   className="w-full h-full object-cover"
                 />

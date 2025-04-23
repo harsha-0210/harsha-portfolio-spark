@@ -1,5 +1,5 @@
 
-import { Briefcase } from "lucide-react";
+import { Briefcase, Shield, Terminal, AlertTriangle } from "lucide-react";
 
 const InternshipSection = () => {
   return (
@@ -53,7 +53,7 @@ const InternshipSection = () => {
 
               <div className="mt-8">
                 <img 
-                  src="https://drive.google.com/file/d/1pINzykt25ltwuAxTWo8EInRJ7CfdB5TC/view?usp=drive_link" 
+                  src="/Screenshot (288).png" 
                   alt="Internship Experience" 
                   className="rounded-lg shadow-md w-full h-48 object-cover"
                 />
@@ -67,6 +67,3 @@ const InternshipSection = () => {
 };
 
 export default InternshipSection;
-
-// Import at the top
-import { Shield, Terminal, AlertTriangle } from "lucide-react";
