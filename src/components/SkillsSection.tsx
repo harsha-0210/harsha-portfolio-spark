@@ -118,9 +118,9 @@ const SkillsSection = () => {
         <div className="space-y-16">
           {skillCategories.map((category, index) => (
             <div key={category.title} className="reveal">
-              <div className="mb-8 flex items-center gap-3">
+              <div className="mb-8 flex items-center justify-center gap-3">
                 {category.icon}
-                <h3 className="text-2xl font-playfair font-bold">{category.title}</h3>
+                <h3 className="text-2xl font-playfair font-bold text-center">{category.title}</h3>
               </div>
               
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4">
