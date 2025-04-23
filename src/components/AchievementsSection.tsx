@@ -1,4 +1,3 @@
-
 import { Trophy, FileText, Award } from "lucide-react";
 
 const AchievementsSection = () => {
@@ -6,7 +5,7 @@ const AchievementsSection = () => {
     {
       title: "HackerRank Problem Solving Certification",
       icon: <Trophy className="w-12 h-12 text-accent" />,
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+      image: "/Screenshot (281).png",
     },
     {
       title: "Cyber Security Paper with 29K+ reads",
@@ -16,7 +15,7 @@ const AchievementsSection = () => {
     {
       title: "NPTEL Elite Badge",
       icon: <Award className="w-12 h-12 text-accent" />,
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      image: "/images.png",
     },
   ];
 
