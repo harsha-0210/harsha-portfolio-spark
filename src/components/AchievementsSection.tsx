@@ -6,17 +6,17 @@ const AchievementsSection = () => {
     {
       title: "HackerRank Problem Solving Certification",
       icon: <Trophy className="w-12 h-12 text-accent" />,
-      image: "https://drive.google.com/file/d/1Khmwu9ichAY5pN_v5oD4uFkD9mbXpW1a/view?usp=drive_link",
+      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
     },
     {
       title: "Cyber Security Paper with 29K+ reads",
       icon: <FileText className="w-12 h-12 text-accent" />,
-      image: "https://i0.wp.com/carijournals.org/wp-content/uploads/2023/04/Steps-in-Writing-a-Good-Research-Paper.png?fit=1000%2C600&ssl=1",
+      image: "https://images.unsplash.com/photo-1518770660439-4636190af475",
     },
     {
       title: "NPTEL Elite Badge",
       icon: <Award className="w-12 h-12 text-accent" />,
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4JgJF-gjK75chhTH4rGhDrNj0wR6qkaFcSA&s",
+      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
     },
   ];
 
