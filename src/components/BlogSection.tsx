@@ -20,7 +20,7 @@ const BlogSection = () => {
                 className="block relative group w-full"
               >
                 <img 
-                  src="/Screenshot (280).png"
+                  src="https://imgur.com/b5l3aYP"
                   alt="My Blog" 
                   className="max-h-56 w-auto mx-auto object-contain"
                   style={{ maxWidth: "100%" }}
