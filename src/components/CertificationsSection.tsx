@@ -7,7 +7,7 @@ const CertificationsSection = () => {
       title: "Ethical Hacking Essentials",
       issuer: "EC Council",
       link: "https://coursera.org/verify/QAYCLA32VDJO",
-      image: "https://drive.google.com/file/d/1mf8Ub3LxEUram_grl53H3D9JtlDwL0hV/view?usp=drive_link"
+      image: "Screenshot (285).png"
     },
     {
       title: "Responsible & Safe AI Systems",
