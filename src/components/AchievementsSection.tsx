@@ -5,7 +5,7 @@ const achievements = [
   {
     title: "HackerRank Problem Solving Certification",
     icon: <Trophy className="w-12 h-12 text-accent" />,
-    image: "/Screenshot (281).png",
+    image: "https://imgur.com/o6bj1Va",
     fallback: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
     key: "hackerrank",
   },
@@ -19,7 +19,7 @@ const achievements = [
   {
     title: "NPTEL Elite Badge",
     icon: <Award className="w-12 h-12 text-accent" />,
-    image: "/images.png",
+    image: "https://imgur.com/LHZwUWJ",
     fallback: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
     key: "nptel",
   },
