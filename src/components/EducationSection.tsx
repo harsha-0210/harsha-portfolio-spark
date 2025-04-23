@@ -11,13 +11,15 @@ const EducationSection = () => {
     },
     {
       degree: "12th Grade",
-      institution: "Science Stream - CBSE Board",
+      institution: "RBN Global School Lucknow 
+        Science Stream - CBSE Board",
       period: "2022",
       icon: <Book className="w-8 h-8 text-accent" />,
     },
     {
       degree: "10th Grade",
-      institution: "CBSE Board",
+      institution: "RBN Global School Lucknow
+        CBSE Board",
       period: "2020",
       icon: <Book className="w-8 h-8 text-accent" />,
     },
