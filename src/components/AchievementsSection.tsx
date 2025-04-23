@@ -1,4 +1,3 @@
-
 import { Trophy, FileText, Award } from "lucide-react";
 
 const AchievementsSection = () => {
@@ -59,4 +58,3 @@ const AchievementsSection = () => {
 };
 
 export default AchievementsSection;
-
