@@ -53,7 +53,7 @@ const InternshipSection = () => {
 
               <div className="mt-8 flex items-center justify-center">
                 <img 
-                  src="/Screenshot (288).png" 
+                  src="https://imgur.com/HknRByJ" 
                   alt="Internship Experience" 
                   className="rounded-lg shadow-md max-h-56 w-auto object-contain"
                   style={{ maxWidth: "100%" }}
