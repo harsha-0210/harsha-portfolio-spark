@@ -1,34 +1,34 @@
 
 import { Code, ExternalLink, Github } from "lucide-react";
 
-const ProjectsSection = () => {
-  const projects = [
-    {
-      title: "Safer - User Authentication Interface",
-      description: "Built a Cryptographic interface working on RBAC and authenticates users using Multi-factor authentication.",
-      techStack: "Kali Linux, Metasploit, Burp Suite, HTML, CSS",
-      image: "/Screenshot (286).png",
-      link: "https://github.com/harsha-0210/User-Auhthentication-Interface",
-      github: "https://github.com/harsha-0210/User-Auhthentication-Interface"
-    },
-    {
-      title: "Sleath - AI powered smart planner",
-      description: "Built an AI based smart planner which sets reminders for your daily tasks and automate your daily routine.",
-      techStack: "HTML, CSS, JavaScript",
-      image: "/Screenshot (287).png",
-      link: "https://github.com/harsha-0210/Sleath-Smart-Planner",
-      github: "https://github.com/harsha-0210/Sleath-Smart-Planner"
-    },
-    {
-      title: "Travel Sphere",
-      description: "A personal travel planning website made to help users explore and create trip itineraries with ease and aesthetics.",
-      techStack: "Weebly",
-      image: "/Screenshot (194).png",
-      link: "https://travelspheres.weebly.com",
-      github: null
-    }
-  ];
+const projects = [
+  {
+    title: "Safer - User Authentication Interface",
+    description: "Built a Cryptographic interface working on RBAC and authenticates users using Multi-factor authentication.",
+    techStack: "Kali Linux, Metasploit, Burp Suite, HTML, CSS",
+    image: "/Screenshot (286).png",
+    link: "https://github.com/harsha-0210/User-Auhthentication-Interface",
+    github: "https://github.com/harsha-0210/User-Auhthentication-Interface"
+  },
+  {
+    title: "Sleath - AI powered smart planner",
+    description: "Built an AI based smart planner which sets reminders for your daily tasks and automate your daily routine.",
+    techStack: "HTML, CSS, JavaScript",
+    image: "/Screenshot (287).png",
+    link: "https://github.com/harsha-0210/Sleath-Smart-Planner",
+    github: "https://github.com/harsha-0210/Sleath-Smart-Planner"
+  },
+  {
+    title: "Travel Sphere",
+    description: "A personal travel planning website made to help users explore and create trip itineraries with ease and aesthetics.",
+    techStack: "Weebly",
+    image: "/Screenshot (194).png",
+    link: "https://travelspheres.weebly.com",
+    github: null
+  }
+];
 
+const ProjectsSection = () => {
   return (
     <section id="projects" className="section">
       <div className="container mx-auto">
@@ -41,14 +41,15 @@ const ProjectsSection = () => {
           {projects.map((project, index) => (
             <div 
               key={project.title} 
-              className="project-card reveal" 
+              className="project-card reveal"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
-              <div className="relative group h-48 overflow-hidden">
+              <div className="relative group h-56 bg-gray-50 flex items-center justify-center overflow-hidden">
                 <img 
                   src={project.image}
                   alt={project.title} 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-auto h-full max-h-52 object-contain mx-auto transition-transform duration-500"
+                  style={{ maxWidth: "100%" }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <div className="p-4 text-white flex items-center gap-3">

@@ -1,5 +1,5 @@
 
-import { Award } from "lucide-react";
+import { Award, ExternalLink } from "lucide-react";
 
 const CertificationsSection = () => {
   const certifications = [
@@ -42,11 +42,12 @@ const CertificationsSection = () => {
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                <div className="relative h-48">
+                <div className="relative h-56 flex items-center justify-center bg-gray-50">
                   <img 
                     src={cert.image} 
                     alt={cert.title} 
-                    className="w-full h-full object-cover"
+                    className="max-h-52 w-auto object-contain mx-auto transition-all duration-500"
+                    style={{ maxWidth: "100%" }}
                   />
                   <div className="absolute inset-0 bg-accent/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                     <div className="bg-white/90 rounded-full p-3">
@@ -72,6 +73,3 @@ const CertificationsSection = () => {
 };
 
 export default CertificationsSection;
-
-// Import at the top
-import { ExternalLink } from "lucide-react";

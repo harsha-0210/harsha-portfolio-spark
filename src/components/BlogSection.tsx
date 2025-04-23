@@ -12,17 +12,18 @@ const BlogSection = () => {
 
         <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden reveal">
           <div className="flex flex-col md:flex-row">
-            <div className="md:w-2/5">
+            <div className="md:w-2/5 flex items-center justify-center bg-gray-50">
               <a 
                 href="https://truetechnologiess.blogspot.com/" 
                 target="_blank" 
                 rel="noreferrer" 
-                className="block h-full relative group"
+                className="block relative group w-full"
               >
                 <img 
                   src="/Screenshot (280).png"
                   alt="My Blog" 
-                  className="w-full h-full object-cover"
+                  className="max-h-56 w-auto mx-auto object-contain"
+                  style={{ maxWidth: "100%" }}
                 />
                 <div className="absolute inset-0 bg-accent/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                   <div className="bg-white rounded-full p-3">
