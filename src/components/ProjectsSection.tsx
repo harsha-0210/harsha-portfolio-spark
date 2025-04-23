@@ -6,7 +6,7 @@ const projects = [
     title: "Safer - User Authentication Interface",
     description: "Built a Cryptographic interface working on RBAC and authenticates users using Multi-factor authentication.",
     techStack: "Kali Linux, Metasploit, Burp Suite, HTML, CSS",
-    image: "/Screenshot (286).png",
+    image: "https://imgur.com/S7NvTh6",
     link: "https://github.com/harsha-0210/User-Auhthentication-Interface",
     github: "https://github.com/harsha-0210/User-Auhthentication-Interface"
   },
@@ -14,7 +14,7 @@ const projects = [
     title: "Sleath - AI powered smart planner",
     description: "Built an AI based smart planner which sets reminders for your daily tasks and automate your daily routine.",
     techStack: "HTML, CSS, JavaScript",
-    image: "/Screenshot (287).png",
+    image: "https://imgur.com/9OidaJl",
     link: "https://github.com/harsha-0210/Sleath-Smart-Planner",
     github: "https://github.com/harsha-0210/Sleath-Smart-Planner"
   },
@@ -22,7 +22,7 @@ const projects = [
     title: "Travel Sphere",
     description: "A personal travel planning website made to help users explore and create trip itineraries with ease and aesthetics.",
     techStack: "Weebly",
-    image: "/Screenshot (194).png",
+    image: "https://imgur.com/RyiXhk5",
     link: "https://travelspheres.weebly.com",
     github: null
   }
