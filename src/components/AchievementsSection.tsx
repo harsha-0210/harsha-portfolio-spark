@@ -1,3 +1,4 @@
+
 import { Trophy, FileText, Award } from "lucide-react";
 
 const AchievementsSection = () => {
@@ -34,11 +35,11 @@ const AchievementsSection = () => {
               className="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 reveal" 
               style={{ animationDelay: `${index * 0.2}s` }}
             >
-              <div className="h-48 overflow-hidden">
+              <div className="h-40 w-full bg-gray-50 flex items-center justify-center overflow-hidden">
                 <img 
                   src={achievement.image} 
                   alt={achievement.title} 
-                  className="w-full h-full object-cover"
+                  className="object-contain h-36 w-full"
                 />
               </div>
               <div className="p-6 relative">
@@ -58,3 +59,4 @@ const AchievementsSection = () => {
 };
 
 export default AchievementsSection;
+
