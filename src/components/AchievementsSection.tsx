@@ -6,7 +6,7 @@ const AchievementsSection = () => {
     {
       title: "HackerRank Problem Solving Certification",
       icon: <Trophy className="w-12 h-12 text-accent" />,
-      image: "Screenshot (281).png",
+      image: "https://drive.google.com/file/d/1Khmwu9ichAY5pN_v5oD4uFkD9mbXpW1a/view?usp=drive_link",
     },
     {
       title: "Cyber Security Paper with 29K+ reads",
