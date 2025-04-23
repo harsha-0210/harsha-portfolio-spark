@@ -15,7 +15,7 @@ const AboutSection = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-lg mx-auto">
                 <img
-                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
+                  src="https://i.imgur.com/zFdTKNP.png"
                   alt="Harsha Srivastava"
                   className="w-full h-full object-cover"
                 />
