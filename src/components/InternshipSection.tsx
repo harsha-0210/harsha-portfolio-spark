@@ -1,4 +1,3 @@
-
 import { Briefcase, Shield, Terminal, AlertTriangle } from "lucide-react";
 
 const InternshipSection = () => {
@@ -53,7 +52,7 @@ const InternshipSection = () => {
 
               <div className="mt-8 flex items-center justify-center">
                 <img 
-                  src="https://imgur.com/HknRByJ" 
+                  src="https://i.imgur.com/HknRByJ.png" 
                   alt="Internship Experience" 
                   className="rounded-lg shadow-md max-h-56 w-auto object-contain"
                   style={{ maxWidth: "100%" }}
