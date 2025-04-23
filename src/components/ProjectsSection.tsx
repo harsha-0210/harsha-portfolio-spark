@@ -7,7 +7,7 @@ const ProjectsSection = () => {
       title: "Safer - User Authentication Interface",
       description: "Built a Cryptographic interface working on RBAC and authenticates users using Multi-factor authentication.",
       techStack: "Kali Linux, Metasploit, Burp Suite, HTML, CSS",
-      image: "Screenshot (286).png,
+      image: "Screenshot (286).png", // Fixed: Properly closed string
       link: "https://github.com/harsha-0210/User-Auhthentication-Interface",
       github: "https://github.com/harsha-0210/User-Auhthentication-Interface"
     },
