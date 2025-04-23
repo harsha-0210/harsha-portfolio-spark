@@ -7,7 +7,7 @@ const ProjectsSection = () => {
       title: "Safer - User Authentication Interface",
       description: "Built a Cryptographic interface working on RBAC and authenticates users using Multi-factor authentication.",
       techStack: "Kali Linux, Metasploit, Burp Suite, HTML, CSS",
-      image: "Screenshot (286).png",
+      image: "https://drive.google.com/file/d/1RLyXjxmK-5oAZMf3pEA5x6DcYhhplaQ4/view?usp=drive_link",
       link: "https://github.com/harsha-0210/User-Auhthentication-Interface",
       github: "https://github.com/harsha-0210/User-Auhthentication-Interface"
     },
@@ -15,7 +15,7 @@ const ProjectsSection = () => {
       title: "Sleath - AI powered smart planner",
       description: "Built an AI based smart planner which sets reminders for your daily tasks and automate your daily routine.",
       techStack: "HTML, CSS, JavaScript",
-      image: "Screenshot (287).png",
+      image: "https://drive.google.com/file/d/17dcCQ61GD1svJNQQ-AQwVZlPinRk55KR/view?usp=drive_link",
       link: "https://github.com/harsha-0210/Sleath-Smart-Planner",
       github: "https://github.com/harsha-0210/Sleath-Smart-Planner"
     },
@@ -23,7 +23,7 @@ const ProjectsSection = () => {
       title: "Travel Sphere",
       description: "A personal travel planning website made to help users explore and create trip itineraries with ease and aesthetics.",
       techStack: "Weebly",
-      image: "Screenshot (194).png",
+      image: "https://drive.google.com/file/d/18e1KPGqvNZ67a4H3QVIP-Hz1Ss2Mw2tT/view?usp=drive_link",
       link: "https://travelspheres.weebly.com",
       github: null
     }
